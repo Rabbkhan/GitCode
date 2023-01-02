@@ -26,6 +26,7 @@
       <li class="list-group-item">Item 2</li>
       <li class="list-group-item">Item 3</li>
       <li class="list-group-item">Item 4</li>
+      <li class="list-item">Item 5</li>
     </ul>
    </div>
   </div>
@@ -38,6 +39,7 @@
 let header= document.getElementById('main-header');
 let Title = document.querySelector('.title');
 let items = document.getElementsByClassName('list-group-item');
+let li = document.getElementsByTagName('li');
 header.style.borderBottom = 'solid 3px #000';
   Title.style.color='green';
   // Title.style.fontFamily = 'bold'
@@ -48,6 +50,7 @@ header.style.borderBottom = 'solid 3px #000';
     items[i].style.fontWeight="bold";
 
   }
+
 
 
   </script>
